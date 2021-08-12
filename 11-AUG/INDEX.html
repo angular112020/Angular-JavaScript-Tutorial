@@ -1,0 +1,98 @@
+<script>
+/*
+document.write("<table>")
+for(var i=1; i<=8; i++){
+    document.write("<tr>")
+    for(var j=1; j<=8; j++){
+
+        if((i+j)%2!=1)
+
+        document.write("<td style='padding:12px';>  </td>")
+        else
+        document.write("<td style='padding:12px;background:black'>  </td>")
+
+    }
+    document.write("</tr>")
+
+}
+document.write("</table>")
+
+
+document.write("<hr/>")
+var k=3;
+for(var i=1; i<=4; i++){
+
+    for(var j=1; j<=k; j++){
+        document.write("&nbsp;&nbsp;&nbsp;")
+    }
+    for(var p=1; p<=i; p++){
+        document.write(" "+(p%2)+" ")
+    }
+    k--
+    document.write("<br/>")
+}
+
+
+*/
+/*
+var items=["php","java","asp","vb","python","angular","android"]
+
+//items.sort().reverse()
+var result=items.filter(function(v,i){
+    if(v=="php")
+    return true
+    else
+    return false
+})
+
+console.log(result)
+*/
+
+var nums=[3,4,5,6,9,5,[11,22],[33,5]]
+/*
+var result=nums.every(function(e,i){
+    
+    return e>2;
+})
+*/
+
+/*
+var result=nums.map(function(e,i){
+    return e*e*e
+})
+console.log(result)
+*/
+
+//console.log(nums.indexOf(5, nums.indexOf(5)+1))
+//console.log(nums.lastIndexOf(5))
+
+//var r=nums.join("|")
+
+Array.prototype.copyall=function(){
+    var items=this
+    var copy=[]
+    items.forEach(function(e,i){copy[i]=e})
+    return copy
+}
+
+var result=nums.copyall()
+//var result=nums;
+
+result.splice(2,6)
+console.log(nums)
+console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
