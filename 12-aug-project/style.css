@@ -52,3 +52,16 @@ body{
     border:1px solid black;
     padding: 7px;
 }
+i.fa.fa-trash {
+    font-size: 20px;
+    color: red;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+i.fa.fa-edit {
+    font-size: 20px;
+    color: rgb(21, 33, 201);
+    padding: 7px;
+    margin-left: 10px;
+}

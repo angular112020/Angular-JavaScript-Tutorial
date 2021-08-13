@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,78 +15,42 @@
                 <label>TODO BOOK</label>
             </div>
             <div class="card-body">
+                <form id="frm">
                    <div class="form-group">
                        <label for="">Book title</label>
-                       <input type="text" class="form-control">
+                       <input type="text" class="form-control" id="title">
                    </div>
 
                    <div class="form-group">
                     <label for="">Book price</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id="price">
                 </div>
 
                 <div class="form-group">
                     <label for="">Book author</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id="author">
                 </div>
 
                 <div class="form-group">
-                  <button class="btn btn-submit">Submit</button>
+                  <button class="btn btn-submit" type="button" id="btn_add">Submit</button>
             </div>
+        </form>
         </div>
         </div>
 
         <div class="book-content">
-            <table class="table">
+            <table class="table" id="tbl">
                 <thead>
                     <tr>
                         <th>SNo.</th>
                         <th>title</th>
                         <th>price</th>
                         <th>author</th>
-                        <th>Action</th>
+                        <th width="100">Action</th>
                         </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Angular</td>
-                        <td>200</td>
-                        <td>xyz</td>
-                        <td>edit</td>
-                    </tr>
-
-                    <tr>
-                        <td>1</td>
-                        <td>Angular</td>
-                        <td>200</td>
-                        <td>xyz</td>
-                        <td>edit</td>
-                    </tr>
-
-                    <tr>
-                        <td>1</td>
-                        <td>Angular</td>
-                        <td>200</td>
-                        <td>xyz</td>
-                        <td>edit</td>
-                    </tr>
-
-                    <tr>
-                        <td>1</td>
-                        <td>Angular</td>
-                        <td>200</td>
-                        <td>xyz</td>
-                        <td>edit</td>
-                    </tr>
-
-                    <tr>
-                        <td>1</td>
-                        <td>Angular</td>
-                        <td>200</td>
-                        <td>xyz</td>
-                        <td>edit</td>
-                    </tr>
+                  
                 </tbody>
             </table>
         </div>
