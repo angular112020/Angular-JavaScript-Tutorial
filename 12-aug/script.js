@@ -59,26 +59,35 @@ var mobile={"brand":"Samsung","model":"j9","price":12000}
 var mobile2=new Object();
 
 //Object.assign(mobile2,mobile)
-Object.prototype.copyObject=function(){
+// Object.prototype.copyObject=function(){
 
-    var obj=this;
-    var coped={}
-    for(var p in obj)
-    coped[p]=obj[p]
+//     var obj=this;
+//     var coped={}
+//     for(var p in obj)
+//     coped[p]=obj[p]
 
-    return coped;
-}
-mobile2=mobile.copyObject()
+//     return coped;
+// }
+// mobile2=mobile.copyObject()
 
-delete mobile2.price
+// delete mobile2.price
 
-console.log(mobile)
-console.log(mobile2)
-
-
+// console.log(mobile)
+// console.log(mobile2)
 
 
 
+var a=10
+var b=20
+
+var a=eval("a*b")+"<br/>"
+var b=eval("a+b")+"<br/>"
+var c=eval("a+b")+"<br/>"
+
+var res=a+b+c
+
+document.write(res)
+console.log(res)
 
 
 
