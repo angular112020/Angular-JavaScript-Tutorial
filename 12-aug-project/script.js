@@ -87,5 +87,15 @@ window.addEventListener("load",function(){
 })
 
 
+_("txt_search").addEventListener("keyup",function(){
+    var txt=this.value
+    var result=books.filter(function(book){
+        if(JSON.stringify(book).includes(txt)){
+            return book;
+        }
+    })
+    
+    BindBook(result)
+})
 
 
