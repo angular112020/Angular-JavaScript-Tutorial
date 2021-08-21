@@ -30,7 +30,7 @@ var Employee=(function(){
         
         return Employee;
 })()
-
+/*
 var emp=new Employee("rajiv","raj8899@gmail.com",140000)
 
 var emp2=new Employee("ajay","ajay8899@gmail.com",180000)
@@ -39,6 +39,54 @@ var emp3=new Employee("suraj","suraj8899@gmail.com",340000)
 console.log(emp)
 console.log(emp2.getmonthalysalary())
 console.log(emp3)
+*/
+
+
+//var obj={x:10,y:20}
+
+//delete obj.x
+//obj.x=undefined
+//console.log(obj)
+
+/*
+function PrintName(x){
+    console.log("deepak")
+    x++
+    if(x<=10)
+    PrintName(x)
+}
+
+PrintName(1)
+*/
+
+/*
+var nums=[3,4,5,[55,66,[21,23,[65,77],90],99]]
+function recur(nums)
+{
+nums.forEach(function(e){
+
+    if(Array.isArray(e)){
+        //furture walk
+        recur(e)
+    }
+    else{
+        console.log(e)
+    }
+})
+}
+
+recur(nums)
+*/
+
+
+
+
+
+
+
+
+
+
 
 
 
