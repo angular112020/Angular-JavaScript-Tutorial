@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="btn" style="color: green;">Like</button>
+    <button id="btn-dislike">DisLike Me</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+    <script>
+
+ var x=true;
+ document.getElementById("btn").addEventListener("click", function(){
+   if(x)
+   {
+     this.innerText="Dislike"
+     this.style.color="red"
+    var i=counter.like();
+    x=false;
+}
+else{
+    this.innerText="Like"
+     this.style.color="green"
+    var i=counter.dislike();
+    x=true;
+}
+
+            document.getElementById("result").innerHTML="Like : "+i
+
+     })  
+
+
+
+    //  document.getElementById("btn").addEventListener("click", function(){
+    //         var i=counter.like();
+    //         document.getElementById("result").innerHTML="Like : "+i
+
+    //  })   
+    //  document.getElementById("btn-dislike").addEventListener("click",  function(){
+    //         var i=counter.dislike();
+    //         document.getElementById("result").innerHTML="Like : "+i
+
+    //  }) 
+
+
+    </script>
+</body>
+</html>
+
+
