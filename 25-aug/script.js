@@ -21,9 +21,10 @@ function serialize(frm){
 // alert("hello again")
 // }
 
+/*
 function loadpets(){
 
-    /*
+    
     var http=new XMLHttpRequest()
     http.open("GET","data/pets.json")
     http.send()
@@ -35,9 +36,8 @@ function loadpets(){
     }
     }
 
-    */
-
-    fetch("data/pets.json").then(function(res){
+    
+  fetch("data/pets.json").then(function(res){
             if(res.ok){
                 res.json().then(function(result){
                     console.log(result)
@@ -48,3 +48,4 @@ function loadpets(){
 }
 
 loadpets()
+*/
