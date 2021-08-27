@@ -1,0 +1,430 @@
+Logical: &&, ||, !
+Ternary operator/conditional: condition ? expr1:expr2
+
+increment/decrement: ++, --
+eqatity: ===
+assignment:  =
+typeof
+instanceof
+delete
+concatenation:  +
+----------------------------------------
+Operator Associtivity & precedence
+--------------------------------------
+Javascript Input and Output:-
+
+	Input:- to take input from user we can use following methods.
+	1- using window.prompt
+	2- using HTML DOM-
+		document.getElementById
+		document.getElementsByName
+		document.getElementsByClassName
+		document.getElementsByTagName
+		document.querySelector
+		document.querySelectorAll
+------------------------------------------------
+Javascript Output:-
+	to print /show the output we have following methods.
+	1- console.log,warn,info,error
+	2- document.write or writeln- not remmonded
+	3- HTML DOM-
+		value, innerHTML,  innerText, 		textContent
+	4- alert()
+----------------------------------------------------
+	Control flow statement:-
+		
+		1- conditional statement:-
+				if else
+				elseif/ladder if
+				nestedif
+		2- switch case
+			switch
+			case
+			break
+			default
+		3- Loop-
+			while
+			for
+			do while
+			for in && for of
+--------------------------------------------------
+w.a.p. to enter age of person and check he will eligible for vote or not, where he eligible only if his age >=18
+------------------------------------------------------
+1- w.a.p. to enter 3 number and print smallest 
+2- w.a.p. to enter 3 number and print second largest.
+3- w.a.p. to enter amount of goods and calculate discount. where if amount >=5000 then discount will be 30%, if amount>=3000 then discount will be 20%, if amount >=2000 then discount will be 15%, and if amount<2000 then print shop more to discount .
+also calculate payable amount.
+4- w.a.p. to enter marks of five subject and print following- total marks, percentage, grade ?
+5- write the script to toggle login and signup form.
+---------------------------------------------------
+
+switch case:- switch case is very similar to if else, but here we can't pass condition, we can passonly match case, performance wise switch case is better than if else.
+
+
+switch(var){
+
+case 1:
+statement;
+break;
+
+case 2:
+statement;
+break;
+
+case n:
+statement;
+break;
+
+default:
+statement;
+break;
+
+}
+--------------------------
+w.a.p. to enter any number and check the number is even or odd , without using if else.
+------------------------------------
+Loop:- loop is the mechanism to iterate statements , n number of time. and loop reduce code complexity with iteration. there are following type of loop supported by javascript.
+
+
+
+while:- 
+initialization
+target/ condition
+iteration/ inc/dec
+-----------------------
+init;
+while(condition)
+{
+statements;
+inc/dec;
+}
+-------------------------------
+w.a.p. to enter any number and print table of it.
+-----------------------------------------------
+
+1- w.a.p. to enter any number and print factorial of it ?
+
+2- w.a.p. to enter term of series and print fibnucci series.
+
+3- w.a.p. to enter any number and check the number is pelindrom or not ?
+
+4- w.a.p. to enter any number and check the number is prime or not ?
+
+5- w.a.p. to enter any number and check the number is armstrong of not ?
+-------------------------------------------------------
+for loop:- 
+
+for(initi; condition; inc/dec)
+{
+statements;
+
+}
+----------------------------------------
+forEach- forEach is the array iterable function, which is based on callback, it call the callback function for the each array element.
+
+for of:- for of loop introduced in es6, it can visit on each item of array and can recieve one by one item.
+
+for(var local_var of arrayName)
+{
+// use local_var
+}
+
+
+for in: for in designed for iterate over object. it gothrough step by step on each property of object.
+
+for(var local_var in object_name){
+//use local_var
+}
+
+---------------------------------------------------
+Array:- array is the collection items , where each item located on particular index position ,  and index start from 0.
+in javascript array can declare using 2 method.
+1- using array literals
+2- using array constructor
+---------------------------------------------
+how many way to add item in array ?
+1- push
+2- unshift
+3- splice
+4-using specific index 
+--------------------------------------
+how many way to remove item from array.
+-----------------------------------------
+pop
+shift
+splice
+----------------------------------
+Array methods:- 
+
+	array mutator: push,pop,splice,unshift,sort etc.
+
+	array non-mutator:filter,every,map,forEach, keys, values, indexOf, lastIndexOf, concat, fill, reduce etc.
+
+
+-----------------------------------------------
+Assignment:- 
+
+a- 1 * * * *
+   * 2 * * *
+   * * 3 * *
+   * * * 4 *
+   * * * * 5
+b-
+
+5 4 3 2 1
+5 4 3 2 
+5 4 3
+5 4
+5
+
+c- 
+
+5 4 3 2 1 
+4 3 2 1
+3 2 1
+2 1
+1
+
+d-
+
+       1
+     1 0
+   1 0 1
+ 1 0 1 0
+
+e-
+
+    *
+  * * *
+* * * * *
+
+f- w.a.p. to print chess board .
+-----------------------------------------------
+
+Object:- object is the key and value pair , storage, where key represent proeprty and has a value to corresponding it .  in javascript object can  create using following methods-
+1- using object literals
+2- using object constructor function
+3- using object constructor
+------------------------------------------------
+
+1- difference between deep copy and shalow copy ?
+-------------------------------------------------------------
+
+Function:- function is the block of code , written in sequential manner to perform specific task.
+javascript provide 2 type function-
+a- pre-define /built-in function
+b- user define function
+---------------------------------------------------
+a- pre-define function: these are ready made function, which use as per requirements.
+	exa:
+	1- string- substr,substring,toupper,tolower, startsWith,endsWith, indexOf,            lastIndexOf, charCode, charCodeAt, includes, replace,split etc.
+	2- math
+	3- datetime
+	4- timing
+----------------------------------------------------------
+1- w.a.p. to enter a string and check the string pelindrom or not ?
+2- w.a.p. to enter a string and find out each word occurance in the string.
+3- w.a.p. to enter a string and check the specific word occurance from string.
+4- w.a.p. to enter a email address and display in forllowing format
+	input: rajesh12345@gmail.com
+	output: raj********@gmail.com
+5- w.a.p. to enter a string and print in abbrivated format
+	input: raj kumar verma
+	output: R.K. Verma
+
+-------------------------------------------------------------------------
+
+this is the india where everone is a freedom
+
+This is The India Where Everone is a Freedom
+
+--------------------------------------------------
+
+Math function: these functions are usefull to perform mathmatical operations.
+		all math function exist in Math static object.
+	exa:
+		abs, pow,ceil,floor,round,sqrt, random etc.
+
+
+Date Function:- all the date function exist in Date constructor.
+
+Timing function: these function call after a time period or set of interval.
+		exa:
+		setTimeout/clearTimeout
+		setInterval/clearInterval
+----------------------------------------------------
+
+User define function:-  javascript also provide way to create your own function. and call it anywhere ..
+	
+
+	syntax
+
+		function functionName(args)
+		{
+		//statements;
+		<return value>
+		}
+
+----------------------------------------------------
+type of function declaration-
+
+1- simple function
+2- expression function
+3- Immediate invoke function expression (IIFE)
+4- function constructor
+5- recursive function/function recursion
+6- function clouser
+7- pure and impure function
+8- function with arguments keyword
+----------------------------------------------
+
+
+closer function:- a clouser function is the inner function , which access its outer function/parent function variables. clouser makes laxical scope for data member.
+where it prevent from outside script hacking.
+	
+	syntax:
+		var fun=(function(){
+
+			//do stuff
+			
+			function innerfunction(){
+
+			//do stuff
+			return something
+			}
+
+		return innerfunction;
+		})()
+
+-------------------------------------------------------
+
+callback function:- a callback is the function, which pass as arugment in any function, callback can be use to handle the result in asnyc environment.
+		
+		setInterval(function, time)
+		array.forEach(function)
+------------------------------------------------------------------------------
+1- w.a. function which accept arguments and produce same result.
+	example;
+		console.log(sum(2,3))      =>5
+		console.log(sum(2)(3))     =>5
+		console.log(sum(2)(3)(4))  =>9
+
+2- exaplin difference between call, bind,apply with example.
+
+3- what is clouser function , why we need it? exaplain with example ?
+
+4- how many way to copy array, explain each with example ?
+
+5- what is difference between filter,map,reduce and forEach explain each with example !
+
+---------------------------------------------------------------------------------
+
+Mini project- create a trafic light with 3 circle red,green,yellow, change the single after every 5 second ? where yellow must be only for 3 sec ?
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+		
+
+
+
+
+
