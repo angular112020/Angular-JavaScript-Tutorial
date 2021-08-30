@@ -1,4 +1,4 @@
-Logical: &&, ||, !
+ Logical: &&, ||, !
 Ternary operator/conditional: condition ? expr1:expr2
 
 increment/decrement: ++, --
@@ -320,7 +320,69 @@ callback function:- a callback is the function, which pass as arugment in any fu
 ---------------------------------------------------------------------------------
 
 Mini project- create a trafic light with 3 circle red,green,yellow, change the single after every 5 second ? where yellow must be only for 3 sec ?
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+DOM- Document Object Model:-
+
+DOM- API-
+	document.getElementById()
+		.getElementsByName()
+		.getElementsByClassName()
+		.getElementsByTagName()
+		.querySelector()
+		.querySelectorAll()
+
+-------------------------------------------------------------------------
+innerHTML
+innerText
+value
+textContent
+------------------------------------------------------------------------
+Attribute methods:-
+		getAttribute
+		setAttribute
+		removeAttribute
+-----------------------------------------------------------------------
+Dynamic html:-
+document.createElement()
+document.createTextNode()
+append
+appendChild
+prepend
+remove
+removeChild
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -61,6 +61,7 @@ var o={"x":2,"y":3}
     console.log("Outside x "+o.x)
     console.log("Outside y "+o.y)
 
+    
 
 
 
