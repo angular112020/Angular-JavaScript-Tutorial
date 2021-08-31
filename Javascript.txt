@@ -352,6 +352,47 @@ prepend
 remove
 removeChild
 -----------------------------------------------------------------------
+DOM Walk:- 
+
+parentElement
+NextElementSibling
+PreviousElementSibling
+Children
+-----------------------------------------------------------------------
+DOM CSS:-
+	style: -apply inline css
+	className: - add/get class
+	classList:- is the collection, return all classes into array and can take action on that.
+	setAttribute/RemoveAttribute:- also can be use to add/remove classes
+-------------------------------------------------------------------------
+Event and EventListener:-
+ 			
+Event type-
+	form event
+	keyboard event
+	mouse event
+	ajax event
+	media event
+	dragable event
+	window event
+	document event
+
+
+-----------------------------------------------------------------------
+
+write a script block following action  on my web page-
+	a- copy and paste
+	b- backspace/delete
+	c- right click
+------------------------------------------------------------------------
+
+
+
+
+
+	
+
+
 
 
 
