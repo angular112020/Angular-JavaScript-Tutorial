@@ -24,7 +24,7 @@ function GetSamll(){
 //document.getElementById("btn").addEventListener("click", GetSamll)
 
 //--------------discount---------//
-
+/*
 function calcdiscount(){
     var amt=parseFloat(document.getElementById("n1").value)
     var discount=0,rest=0
