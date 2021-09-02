@@ -42,6 +42,7 @@ window.onscroll=function(){
 //console.log(window.location)
 
 window.navigator.geolocation.getCurrentPosition(function(e){
+   
     console.log(e.coords.latitude)
     console.log(e.coords.longitude)
     

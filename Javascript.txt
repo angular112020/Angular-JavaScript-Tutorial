@@ -385,6 +385,27 @@ write a script block following action  on my web page-
 	b- backspace/delete
 	c- right click
 ------------------------------------------------------------------------
+JSON:-   
+
+Ajax:- Asyncronous Javascript XML:- ajax is the technique or mechanism to communicate with server, we send the request to server and get response  from server, ajax can send request in background , without reloading whole web page, so it can update partial page, or  few/specific part of page .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

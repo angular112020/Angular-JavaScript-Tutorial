@@ -1,0 +1,7 @@
+{
+    "customers":[
+        {"id":1,"name":"deepak","gender":"male"},
+        {"id":2,"name":"Ajay","gender":"male"},
+        {"id":3,"name":"rahul","gender":"male"}   
+    ]
+}
