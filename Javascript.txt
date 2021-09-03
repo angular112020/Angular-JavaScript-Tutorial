@@ -316,6 +316,21 @@ callback function:- a callback is the function, which pass as arugment in any fu
 4- how many way to copy array, explain each with example ?
 
 5- what is difference between filter,map,reduce and forEach explain each with example !
+--------------------------------------------------------
+6- what is difference between object and JSON
+7- what json prsing ?
+8- what is callback function why we need this. explain with real time example?
+9- what are variable scope in javascript , explain each.
+10- what are difference method to call the event on the html elements ?
+
+---------------------------------------------------------
+
+
+
+
+
+
+
 
 ---------------------------------------------------------------------------------
 
@@ -388,6 +403,10 @@ write a script block following action  on my web page-
 JSON:-   
 
 Ajax:- Asyncronous Javascript XML:- ajax is the technique or mechanism to communicate with server, we send the request to server and get response  from server, ajax can send request in background , without reloading whole web page, so it can update partial page, or  few/specific part of page .
+
+---------------------------------------------------------------
+Adavance JS & ECMA-6:-
+
 
 
 

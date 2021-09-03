@@ -1,0 +1,19 @@
+Wheater Api-
+CRUD:-
+Create- : post
+Read- get
+Update: put/patch
+Delete:delete
+------------------------------
+http verbs
+-------------------------
+
+https://reqres.in/api/products/3
+----------------------------------------------------
+https:// protocol
+reqres.in/   domain
+api           /prefix
+
+products:       endpoint
+3/               param/parameter
+--------------------------------------------------------
