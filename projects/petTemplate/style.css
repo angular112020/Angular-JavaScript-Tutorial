@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(41, 250, 152, 0.4);
+    margin-top: 30px;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border:1px solid black
+
+}
+.btn{
+    padding: 14px 20px;
+    border-style: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-success{
+    background-color: rgb(33, 146, 5);
+    color: #fff;
+}

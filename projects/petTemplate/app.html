@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="frm">
+        <div class="card">
+
+            <!-- <div class="form-group">
+                <label for="">Pet Name</label>
+                <select class="form-control" >
+                  <option>Select</option>
+                  <option>Dog</option>
+                  <option>Cat</option>
+                  <option>Horse</option>
+                </select>
+            </div> -->
+
+            <div class="form-group">
+                <label for="">Pet Name</label>
+                <!-- <input type="text" class="form-control" name="name"> -->
+
+                <select class="form-control" name="name">
+                    <option selected disabled>--Select Pets--</option>
+                    <option>Dog</option>
+                    <option>Cat</option>
+                    <option>Horse</option>
+                    <option>Goat</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="">Pet Age</label>
+                <input type="number" class="form-control" name="age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Pet Weight</label>
+                <input type="number" class="form-control" name="weight" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Pet Gender</label>
+                
+                <!-- <input type="radio" name="gender" id="male"> 
+                <label for="m">Male</label>
+    
+                <input type="radio" name="gender" id="female"> 
+                <label for="f">Female</label> -->
+
+                <input type="radio" name="gender" value="male" required > Male        
+                <input type="radio" name="gender" value="female" required > Female
+            </div>
+            
+
+            <div class="form-group">
+                <label for="">Pet type</label>
+                <input type="text" class="form-control" name="type" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="">What it like Most</label>
+                <input type="text" class="form-control" name="like" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="">Address</label>
+                <select name="address" class="form-control" required>
+                    <option value="">--Choose City--</option>
+                    <option>New Delhi</option>
+                    <option>Prayagraj</option>
+                    <option>Lucknow</option>
+                    <option>Noida</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" value="agree">I Agree :
+                <input type="checkbox" value="disagree">I Disagree :
+            </div>
+
+            <div class="form-group">
+              <button class="btn btn-success" id="mybtn" type="submit">Submit</button>
+            </div>
+
+
+        </div>
+    </form>
+
+    <div class="container">
+        <div class="post">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    line-height: 20px;
+    margin: auto;
+    padding: 5px 20px;
+}
+
+.card {
+    width: 83%;
+    height: 95%;
+    margin: auto;
+    font-family: cursive;
+    padding: 0%;
+}
+
+.card-header {
+    padding: 0;
+    width: 50%;
+    height: 199px;
+    box-sizing: border-box;
+    text-align: center;
+    text-justify: auto;
+    border: 4px solid rgba(204, 21, 21, 0.815);
+    background: slategrey;
+    margin-top: 2px;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+}
+.box {
+    border: 2px solid orange !important;
+    box-shadow: 4px 4px 4px lightpink;
+    margin-bottom: 13px;
+    padding: 6px;
+}
+.box div{
+    margin-top: 5px;
+}
+.news-image img {
+    height: 200px;
+    width: 300px;
+}
+
+.city {
+    padding: 6px;
+    width: 38%;
+    height: 180px;
+    position: absolute;
+    top: 6px;
+    left: 520px;
+    right: 4px;
+    text-align: initial;
+    text-justify: auto;
+    border: 3px solid rgba(240, 12, 12, 0.815);
+    background: rgba(79, 226, 59, 0.726);
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.button {
+    background-color: #8a9c8a;
+    border: none;
+    color: rgb(39, 36, 36);
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.card-body {
+    padding: 2px 2px;
+}
+
+h3 {
+    top: auto;
+    margin-top: 0%;
+    text-align: left;
+}
+
+.news-title {
+    color: #800909;
+}

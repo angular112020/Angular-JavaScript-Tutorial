@@ -1,6 +1,6 @@
  Logical: &&, ||, !
 Ternary operator/conditional: condition ? expr1:expr2
-
+ <input type="reset" value="clear">
 increment/decrement: ++, --
 eqatity: ===
 assignment:  =
@@ -10,6 +10,10 @@ delete
 concatenation:  +
 ----------------------------------------
 Operator Associtivity & precedence
+
+
+
+/<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
 --------------------------------------
 Javascript Input and Output:-
 
@@ -316,21 +320,6 @@ callback function:- a callback is the function, which pass as arugment in any fu
 4- how many way to copy array, explain each with example ?
 
 5- what is difference between filter,map,reduce and forEach explain each with example !
---------------------------------------------------------
-6- what is difference between object and JSON
-7- what json prsing ?
-8- what is callback function why we need this. explain with real time example?
-9- what are variable scope in javascript , explain each.
-10- what are difference method to call the event on the html elements ?
-
----------------------------------------------------------
-
-
-
-
-
-
-
 
 ---------------------------------------------------------------------------------
 
@@ -400,12 +389,91 @@ write a script block following action  on my web page-
 	b- backspace/delete
 	c- right click
 ------------------------------------------------------------------------
-JSON:-   
+Event bubling & Propogation:-
+-----------------------------------------------------------------------
+window-
+	document
+	location
+	console
+	navigator
+	geolocation
+	localStorage
+	sessionStorage
+--------------------------------------------------------------
+http://127.0.0.1:5501/1-sep/index.html
+----------------------------------------------------------------------------
 
-Ajax:- Asyncronous Javascript XML:- ajax is the technique or mechanism to communicate with server, we send the request to server and get response  from server, ajax can send request in background , without reloading whole web page, so it can update partial page, or  few/specific part of page .
 
----------------------------------------------------------------
-Adavance JS & ECMA-6:-
+ECMA-6:- 
+1- let & const
+2- arrow function-
+3- rest & spread operator
+4- template literals
+5- OOPs- class, consturctor,property, methods, inheirtance, abstraction etc.
+6- promises
+7- async and await
+8- fetch API
+9- collections
+10- modules
+---------------------------------------------------------------------------
+
+difference between var and let ?
+Ans-
+1- var allow variable re-creation , where let do not allow.
+2- var allow variable hoisting, while let do not allow.
+3- var creates in global scope , while let create in scope level
+---------------------------------------------------------------------------------------------------
+difference between let and const:-
+1- let  allow variable re-initialization, while const do not allow.
+2- let allow to initialize value later on, while const restricted to initialize value at the time of declaration.
+3- let can create with variable convention rule, but const mostly create in capital letters.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+arrow function: arrow function represented by lambda sign, this function can create lambda function, while in single line, it mostly used as callback function. arrow function is more fast & optimized.
+
+rest parameter:-  rest parameter can be use recieve remaining parameters from function.
+		it create a array to hold all params. it respresent by (...) 3 dot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

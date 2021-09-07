@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="news.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+
+
+            <div class="card-header">
+                <h2>Weather</h2>
+                <div class="weather">
+                </div>
+
+
+                <div class="city">
+                    <h2>City Name</h2>
+                    <button id="btn" class="button" onclick="CallAjax1(this.value);News('AU')" value="Paris">Paris</button>
+                    <button id="btn1" class="button" onclick="CallAjax2(this.value);News('IN')" value="Australia">Australia</button>
+                    <button id="btn2" class="button" onclick="CallAjax3(this.value);News(this.value)" value="Austin">Austin</button>
+                    <button id="btn3" class="button" onclick="CallAjax4(this.value);News(this.value)" value="Mumbai">Mumbai</button>
+                    <button id="btn4" class="button" onclick="CallAjax5(this.value);News(this.value)" value="Chennai">Chennai</button>
+                    <button id="btn5" class="button" onclick="CallAjax6(this.value);News(this.value)" value="Delhi">Delhi</button>
+                </div>
+            </div>
+
+            <div class="card-body">
+
+
+              
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <script src="news.js"></script>
+</body>
+
+</html>
