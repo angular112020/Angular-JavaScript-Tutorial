@@ -1,0 +1,22 @@
+"use strict";
+var Hotel = /** @class */ (function () {
+    function Hotel() {
+        this.hotelname = "Vrindavan";
+        this.totalroom = 200;
+        this.bookedroom = 140;
+        this.location = "mathura";
+    }
+    Hotel.prototype.getAvailibility = function () {
+        return this.totalroom - this.bookedroom;
+    };
+    Hotel.prototype.printdetails = function () {
+        var temp = "<h4>Name: " + this.hotelname + "</h4>";
+        temp += "<p>Total Room: " + this.totalroom + "<br/>";
+        temp += "Booked: " + this.bookedroom + "<br/>";
+        temp += "Location : " + this.location + "</p>";
+        temp += "<h4>Total available room: " + this.getAvailibility() + "</h4>";
+        return temp;
+    };
+    return Hotel;
+}());
+var hotel = new Hotel();

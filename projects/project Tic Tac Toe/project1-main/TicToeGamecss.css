@@ -1,0 +1,55 @@
+
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9{
+	
+	height: 100px;
+	width:100px;
+	float:left;
+	margin:5px;
+	text-align:center;
+	font-size:60px;
+	box-shadow:0px 10px 20px lightgrey;
+}
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,:focus{
+background-color:grey;
+color:white;
+box-shadow:0px 10px 20px grey;
+transition:1s;
+}
+
+.div1,.div4,.div7{
+	clear:left;
+}
+.h2{
+	font-size:40px;
+	color:darkgray;
+	font-family:Times New Roman;
+
+}
+.div12{
+background:pink;
+width:600px;
+}
+.main1{
+	border:1px solid black;
+    width:380px;
+    position:inline;
+    background:lightblue;
+    border:none;
+    box-shadow:0px 10px 20px lighpink;
+	margin-left:50px;
+
+}
+.div22
+{
+	width:400px;
+}
+.btn
+{
+	width:180px;
+	color:red;
+	font-family:Times New Roman;
+	background:rgb(230, 232, 233);
+	font-size:22px;
+	border-radius:5px;
+	border:5px;
+}
