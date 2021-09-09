@@ -469,6 +469,96 @@ class className{
 -------------------------------------------------------------------------------
 member of class:- 
 
+constructor:-  constructor is the special method of class, which automatically invoke , when the instance created. in es6  constructor can created by using constructor keyword.
+	exa:
+	class className
+	{
+	          constructor(){
+		some code here//
+		}
+	}
+
+---------------------------------------------------------------------
+
+Note: constructor can be use to initialize comman property of class. also can be use to load base level configuration & classes.
+-------------------------------------------------------------------
+
+property:- property are usefull to read and write the data. like- name,email,mobile,gender etc.
+	es6  delcare all public proeprties in constructor using this keyword.
+
+methods:- method can be use to perform specific functionality within class. like- create,update,delete etc.
+---------------------------------------------------------------------
+ inheritance:- inheritance is the technique to access base class members into children class, it achieves code  re-usability.  where base class also can be called parent/super class and drived class also can be called child/sub class.
+es6 provide extends keyword to achieve inheritance .
+--------------------------------------------------------------------
+polymarphism:- 
+encapsulation:- 
+abstraction: - not supported
+interface:- not supported
+---------------------------------------------------------------------------------------
+modules:-
+promises:- 
+async & await:-
+------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
