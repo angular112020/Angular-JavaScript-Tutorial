@@ -500,6 +500,78 @@ modules:-
 promises:- 
 async & await:-
 ------------------------------------------------------------------------------------
+Typescript:-  typescript is the superset language of javascript , which is a transpiler based, it transpile typescript code into javascript code.
+also it is typesafe language, where each data has own type.
+
+why use typescript:-
+1- typescript provide compile time error checking
+2- typescript is typesafe
+3- typescript has more features than javascript, like- generic,OOPs. etc.
+-------------------------------------------------------------------------------------------------------------------
+datatype:-
+	number,string,boolean, enum, class, any.
+	
+
+union: it combine 2 or more datatype. represented by | sign
+----------------------------------------------------------------------------------------
+class:-
+	constructor
+	property
+	methods
+inhehritance:- extends
+encapsulation: access modifier: public,private,protected.
+abstraction:-
+interface:-
+--------------------------------------------------------------------------------------------
+
+npm cache clear --force
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
 
 
 
