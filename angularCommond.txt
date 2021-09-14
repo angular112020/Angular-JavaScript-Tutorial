@@ -1,0 +1,13 @@
+npm install/i -g @angular/cli@latest
+npm install/i -g @angular/cli@10.0.1
+-----------------------------------------------------------
+ng new appname
+--------------------------------------------------------
+ng serve
+ng serve -open
+ng serve -o --port portnumber
+--------------------------------------------------------
+ng generate/g component/c componentName
+------------------------------------------------------------------
+data binding:- 
+
