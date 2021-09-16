@@ -1,0 +1,94 @@
+components:-
+data binding-
+	one way
+	two way
+style binding
+event binding
+property binding
+diretives:
+	1- attribute directives
+	2- structral directives
+	3- component directive
+pipes
+	built-in pipe
+	custome pipe
+	pure vs impure pipe
+-----------------------------------------------------------------------------------
+	Style binding:- style binding is the custome angular directives , that helps we can bind dynamic css properties or 	css classes.	 there is different-2 directives that can be use to bind dynamic css.
+	1- style.prop
+	2- ngStyle
+	3- class.classname
+	4- ngClass
+----------------------------------------------------------------------------------
+	Event Binding:- angular provide easy steps to bind events, to html element. all the event placed with () brackets.
+			exa <button (click)="handlerfunction()">click</button>
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+Directives:-
+	1- Attribute Directive: these directives are helpfull to extends the behaviours of html elements. directives can be called inside [] brackets.
+	exa: src,ngstyle,ngClass,style,class, href,disabled,value,ngModel etc.
+
+	2- Structural directive:- these directives are responsible for create /remove DOM elements dynamically.
+		exa:
+			ngIf, ngSwitch, ngFor
+	custome directives:
+		to create your own directives use-  ng g d directiveName
+		
+-------------------------------------------------------------------
+
+ Routing:- routing is the mechanism to create SPA- single page application, where based on route, we can load different-2 components. there is several approachs about routing.
+	1- simple rotuing
+	2- nested/children routing
+	3- paramterise routing
+	4- routing with autho guard
+	5- modular routing
+------------------------------------------------------------------------------------
+1- simple routing:- to create routing, just follow given steps-
+step-1- create all the required components, that you want to use in routing.
+
+2- configure routerModule routes type with path & components.
+3- import app-routing-module in to app-module.
+4- call router-outlet in template view.
+5- provide links to anchor tag, by using routerLink directive.
+-----------------------------------------------------------------------------------------------
+
+
+home,employee,services,about,contact
+
+service- ticket booking, mobile-recharge, payment-transfer
+
+----------------------------------------------------------
+autho guard:-
+	login
+	dashboard
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
