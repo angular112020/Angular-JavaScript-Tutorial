@@ -1,0 +1,35 @@
+TODO- Employee-
+crud-
+	create
+	update
+	delete
+	read
+	filter
+------------------------------------------------
+employeeToDO
+----------------------------------------------
+Agnular-
+What is Angular and why ?
+difference between angular & angularjs
+difference between reactjs and angular
+difference between angular & node js
+angular project structure ?
+what is component & how to create it ?
+what is decorators ? 
+explain one way vs two way data binding
+directives ? type of directives.
+pure vs impure pipe
+routing- 
+template driven form vs reactive form
+	form validation properties-
+----------------------------------------------------------------------------
+ 
+
+
+
+
+
+
+
+
+

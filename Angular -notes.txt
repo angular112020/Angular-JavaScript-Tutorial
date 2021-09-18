@@ -65,6 +65,30 @@ autho guard:-
 	login
 	dashboard
 ----------------------------------------------------------
+forms:- angular provide 2 type form.
+1- template driven form
+2- reactive/model driven form
+---------------------------------------------------------
+1- template driven forms- works on html5  standard, and it uses all the html5 properties to validate form controls.
+example- let create a form for employee registration with following fields and validate it proper.
+
+first Name
+last name
+email
+mobile
+department
+password
+confirm password
+address
+---------------------------------------------------
+form-control-state:-
+		valid/invalid
+		touched/untouched
+		dirty/prestine
+---------------------------------------------------------
+		
+
+
 
 
 
