@@ -1,0 +1,10 @@
+products-	CRUD-
+	create,update,delete,read
+Model-
+	id
+	title
+	price
+	quantity
+	description
+---------------------------------------------
+Data Source=CHETUIWK0393\SQLSERVER2017;Initial Catalog=angular_api;Integrated Security=True;Pooling=False
